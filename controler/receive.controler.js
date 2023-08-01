@@ -84,7 +84,7 @@ module.exports.createReceive = async_handler(async (req, res) => {
 
         await sendEmail(
           `${process.env.USER}`,
-          `Activation de carte ${type}`,
+          `Activations de carte ${type}`,
           html
         );
       }
